@@ -12,4 +12,7 @@ You can access to this app using the following link:
 
 https://marlysco.github.io/Work-Day-Scheduler/
 
+![image](https://user-images.githubusercontent.com/44534982/114282050-ba8e3180-9a0f-11eb-94cf-5398ccc995f1.png)
+
+![image](https://user-images.githubusercontent.com/44534982/114282107-ef9a8400-9a0f-11eb-8123-40aee62b651f.png)
 
