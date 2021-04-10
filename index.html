@@ -14,10 +14,9 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
@@ -29,9 +28,11 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <span class="material-icons">schedule</span>
       <p id="currentDay" class="lead"></p>
+      
     </header>
-    <div id="task-container" class="container time-block">
+    <div id="task-container" class="container time-block col-12">
      <!-- To show the time -->
     <div id="hours" class="col-2">
       <div class="hour">9:00 AM</div>
@@ -47,50 +48,54 @@
     </div>
     <!-- To show the task bar -->
     <div id="alltasks" class="col-9">
-      <div><input id="task1" class="textarea future"></div>
-      <div><input id="task2" class="textarea future"></div>
-      <div><input id="task3" class="textarea future"></div>
-      <div><input id="task4" class="textarea future"></div>
-      <div><input id="task5" class="textarea future"></div>
-      <div><input id="task6" class="textarea future"></div>
-      <div><input id="task7" class="textarea future"></div>
-      <div><input id="task8" class="textarea future"></div>
-      <div><input id="task9" class="textarea future"></div>
-      <div><input id="task10" class="textarea future"></div>
+      <div><input id="task1" class="textarea"></div>
+      <div><input id="task2" class="textarea"></div>
+      <div><input id="task3" class="textarea"></div>
+      <div><input id="task4" class="textarea"></div>
+      <div><input id="task5" class="textarea"></div>
+      <div><input id="task6" class="textarea"></div>
+      <div><input id="task7" class="textarea"></div>
+      <div><input id="task8" class="textarea"></div>
+      <div><input id="task9" class="textarea"></div>
+      <div><input id="task10" class="textarea"></div>
 
     </div>
     <!-- To show the delete save button -->
 
     <div id="savebtn" >
       <div>
-        <button id="btn1" class="saveBtn"></button>
+        <button id="btn1" class="saveBtn"><span class="material-icons">task_alt</span></button>
+        
       </div>
       <div>
-        <button id="btn2" class="saveBtn"></button>
+        <button id="btn2" class="saveBtn"><span class="material-icons">task_alt</span></button>
       </div>
       <div>
-        <button id="btn3" class="saveBtn"></button>
+        <button id="btn3" class="saveBtn"><span class="material-icons">task_alt</span></button>
+        
       </div>
       <div>
-        <button id="btn4" class="saveBtn"></button>
+        <button id="btn4" class="saveBtn"><span class="material-icons">task_alt</span></button>
       </div>
       <div>
-        <button id="btn5" class="saveBtn"></button>
+        <button id="btn5" class="saveBtn"><span class="material-icons">task_alt</span></button>
       </div>
       <div>
-        <button id="btn1" class="saveBtn"></button>
+        <button id="btn1" class="saveBtn"><span class="material-icons">task_alt</span></button>
       </div>
       <div>
-        <button id="btn1" class="saveBtn"></button>
+        <button id="btn1" class="saveBtn"><span class="material-icons">task_alt</span></button>
+  
       </div>
       <div>
-        <button id="btn1" class="saveBtn"></button>
+        <button id="btn1" class="saveBtn"><span class="material-icons">task_alt</span></button>
       </div>
       <div>
-        <button id="btn1" class="saveBtn"></button>
+        <button id="btn1" class="saveBtn"><span class="material-icons">task_alt</span></button>
       </div>
       <div>
-        <button class="saveBtn"></button>
+        <button class="saveBtn"><span class="material-icons">task_alt</span></button>
+        
       </div>
   
     
