@@ -5,8 +5,11 @@ var task;
 var savedTask=[];
 var index=0;
 
-date();
-checkHour();
+//Function to show the date and hour in real time
+var refreshClock = setInterval(function (){
+    date();
+    checkHour();
+},1000);
 
 //Function to show the current date and hour
  function date() {
